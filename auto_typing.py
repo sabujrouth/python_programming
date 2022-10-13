@@ -2,8 +2,8 @@ from itertools import count
 import pyautogui
 import time
 time.sleep(5)
-count=0
-while count<=500:
-    pyautogui.typewrite("I Love You So Much")
+count = 0
+while count <= 50:
+    pyautogui.typewrite("Hello World!")
     pyautogui.press("Enter")
-    count=count+1
+    count = count+1
