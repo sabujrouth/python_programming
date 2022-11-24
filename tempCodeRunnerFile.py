@@ -1,1 +1,1 @@
-pyautogui
+    pg.press('Enter')

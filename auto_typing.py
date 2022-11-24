@@ -4,7 +4,7 @@ import pyautogui
 import time
 time.sleep(5)
 count = 0
-while count <= 100:
+while count <= 5:
     pyautogui.typewrite("Hi")
     pyautogui.press("Enter")
     count = count+1
