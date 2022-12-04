@@ -1,12 +1,12 @@
 import pyautogui as pg
 import time
 
-time.sleep(5)
+time.sleep(10)
 
 
 txt = open('animals.txt','r')
 
-a = "Pathok is a "
+a = "You are a "
 
 for i in txt:
     pg.write(a+' '+i)
