@@ -1,1 +1,1 @@
-    pg.press('Enter')
+while
