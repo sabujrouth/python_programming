@@ -4,9 +4,9 @@ import time
 time.sleep(10)
 
 
-txt = open('animals.txt','r')
+txt = open('complement.txt','r')
 
-a = "You are a "
+a = " "
 
 for i in txt:
     pg.write(a+' '+i)
